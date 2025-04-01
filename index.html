@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            text-align: center;
+            color: white;
+        }
+        .profile-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            width: 380px;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile-card img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            /* border: 1px solid black; */
+        }
+        .profile-card h1 {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        .profile-card h1 span {
+            color: #764ba2;
+        }
+        .profile-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            padding: 10px 0;
+        }
+        .profile-info p {
+            margin: 8px 0;
+            font-size: 16px;
+        }
+        .social-links {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .social-links a img {
+            width: 30px;
+            height: 30px;
+            transition: 0.3s;
+        }
+        .social-links a img:hover {
+            transform: scale(1.1);
+        }
+        hr {
+            width: 80%;
+            border: 1px solid black;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <h1>Hi, My name is <span>Jay</span> but you can call me <span>Mine</span></h1>
+        <img src="/assets/8.jpg" alt="Profile Picture">
+        <div class="profile-info">
+            <p><strong>Hobby:</strong> Playing Online Games</p>
+            <p><strong>Location:</strong> Capio-an, Argao, Cebu</p>
+            <p><strong>Favorite Game:</strong> Mobile Legends</p>
+            <p><strong>Dream Job:</strong> Software Developer</p>
+        </div>
+
+        <hr>
+        <div class="social-links">
+            <a href="https://www.youtube.com/@chantzy6440" target="_blank"><img src="/assets/1.png" alt="YouTube"></a>
+            <a href="https://www.tiktok.com/@channgmundo1?_t=ZS-8vAaOhwbCWC&_r=1" target="_blank"><img src="/assets/2.png" alt="TikTok"></a>
+            <a href="mailto:atchup789@gmail.com" target="_blank"><img src="/assets/4.png" alt="Email"></a>
+            <a href="https://www.facebook.com/share/18jZuG68cS/?mibextid=wwXIfr" target="_blank"><img src="/assets/3.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/jayzkie_gaming2?igsh=MXI3YnJxamJocHZoMg%3D%3D&utm_source=qr" target="_blank"><img src="/assets/5.png" alt="Instagram"></a>
+        </div>
+    </div>
+</body>
+</html>
